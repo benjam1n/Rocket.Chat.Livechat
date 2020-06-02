@@ -1,6 +1,6 @@
-@import '~styles/colors';
-@import '~styles/helpers';
-@import '~styles/variables';
+@import "~styles/colors";
+@import "~styles/helpers";
+@import "~styles/variables";
 
 .footer {
 	display: flex;
@@ -54,16 +54,9 @@
 	font-weight: 500;
 	align-self: flex-end;
 
-	.powered-by__logo {
-		margin: 0 5px;
-
-		vertical-align: middle;
-		--text-color: #{$color-text-grey};
-		--rocket-color: #{$color-text-grey};
-
-		&:hover {
-			--text-color: #2f343d;
-			--rocket-color: #db2323;
-		}
+	.powered-by__link {
+		color: rgba(0, 0, 0, 0.7);
+		font-weight: 600;
+		text-decoration: none;
 	}
 }
